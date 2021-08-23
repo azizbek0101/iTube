@@ -1,0 +1,47 @@
+@import "../../assets/scss/Roots.scss";
+
+
+.video {
+    width: 150px;
+    margin-right: 17px;
+    margin-left: 13px;
+    
+    &__img {
+        width: 145px;
+        height: 100px;
+        border-radius: 14px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0;
+        text-align: center;
+    }
+
+    
+
+    &__view {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        width: 100px;
+        margin-right: 40px;
+    }
+
+    &__author {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+    }
+}

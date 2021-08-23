@@ -1,0 +1,43 @@
+@import "../../assets/scss/Roots.scss";
+
+.wideo {
+    width: 300px;
+    margin-right: 17px;
+    margin-left: 13px;
+    
+    &__img {
+        width: 285px;
+        height: 145px;
+        border-radius: 14px;
+    }
+
+    &__name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 18px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    &__view {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+        width: 180px;
+        margin-right: 170px;
+    }
+
+    &__author {
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 15px;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        opacity: 0.4;
+    }
+}
